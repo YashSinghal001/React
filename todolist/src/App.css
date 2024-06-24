@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/businessmen-run-their-business-with-visionary-vision-work-bring-company-top-market-beating-competition-no-1-position_24797-2308.jpg?t=st=1719226597~exp=1719230197~hmac=8f13e01dcec321a1e66f9bcf546a48a2c6c3978e65a57652d15fd53d28904cda&w=1060);
+    background-size: cover;
+}
+.cntr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 15px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.145);
+    height: 300px;
+    width: 400px;
+
+}
+#inp{
+    padding: 3px !important;
+    border:1px solid rgba(128, 128, 128, 0.225);
+}
+input:focus{
+    outline: none;
+}
+.tolist{
+    font-size: 50px;
+}
